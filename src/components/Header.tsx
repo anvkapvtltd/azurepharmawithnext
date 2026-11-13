@@ -8,9 +8,9 @@ const nav = [
   { label: "Home", href: "/" },
   { label: "About Us", href: "#about" },
   { label: "Products", href: "#products" },
-  { label: "Specialities", href: "#specialities" },
-  { label: "Business", href: "#business" },
+  { label: "Career", href: "#career" },
   { label: "Why Azure", href: "#why-azure" },
+  { label: "Contact Us", href: "#contact" },
 ];
 
 export default function Header() {
