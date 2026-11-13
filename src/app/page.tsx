@@ -73,14 +73,7 @@ export default function Home() {
         <div className="mx-auto max-w-[90%] px-4 grid gap-12 lg:grid-cols-2 items-center">
           <div>
             <Image src="/assets/aboutus.png" alt="Pharmaceutical innovation" width={1000} height={680} className="w-full h-auto" />
-            <div className="mt-6 grid grid-cols-3 gap-4 text-center">
-              {[["100%", "Quality Assurance"], ["Multi", "Continental Reach"], ["Group", "Healthcare Network"]].map(([v, l], idx) => (
-                <div key={l}>
-                  <p className={`text-2xl font-bold ${idx === 2 ? "text-accent" : "text-brand"}`}>{v}</p>
-                  <p className="text-[11px] text-slate-500">{l}</p>
-                </div>
-              ))}
-            </div>
+          
          
           </div>
           <div>

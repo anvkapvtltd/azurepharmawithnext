@@ -76,46 +76,31 @@ export default function InquirySection() {
                     <label className={labelCls} htmlFor="inq-name">Contact Person *</label>
                     <input id="inq-name" type="text" required placeholder="Dr. / Mr. / Ms. Full Name" className={inputCls} />
                   </div>
-                  <div className="flex flex-col gap-1.5">
-                    <label className={labelCls} htmlFor="inq-organization">Organization / Hospital *</label>
-                    <input id="inq-organization" type="text" required placeholder="Company or Hospital Name" className={inputCls} />
-                  </div>
-                </div>
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                  <div className="flex flex-col gap-1.5">
+                 <div className="flex flex-col gap-1.5">
                     <label className={labelCls} htmlFor="inq-email">Business Email *</label>
                     <input id="inq-email" type="email" required placeholder="name@company.com" className={inputCls} />
                   </div>
+                </div>
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                  
                   <div className="flex flex-col gap-1.5">
                     <label className={labelCls} htmlFor="inq-phone">Phone / WhatsApp *</label>
                     <input id="inq-phone" type="tel" required placeholder="+91 98765 43210" className={inputCls} />
                   </div>
-                </div>
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-                  <div className="flex flex-col gap-1.5">
-                    <label className={labelCls} htmlFor="inq-type">Nature of Inquiry *</label>
-                    <select id="inq-type" className={inputCls}>
-                      <option value="Product Dossier">Request Product Dossier / Spec Sheet</option>
-                      <option value="Hospital Supply">Hospital Supplies &amp; Critical Care</option>
-                      <option value="Govt Tender">Institutional / Govt Tender</option>
-                      <option value="Distribution">Nationwide Pharmacy Distribution</option>
-                      <option value="International Export">International Export / JV</option>
-                      <option value="Contract Manufacturing">Contract Manufacturing &amp; Bulk Supply</option>
-                      <option value="API Supply">API Supply / Tech Transfer</option>
-                    </select>
-                  </div>
                   <div className="flex flex-col gap-1.5">
                     <label className={labelCls} htmlFor="inq-product">Product of Interest</label>
                     <select id="inq-product" className={inputCls}>
-                      <option value="All Products">Entire Formulation Portfolio</option>
+                    
+                      <option value="Azure-D3">Select a Product</option>
                       <option value="Azure-D3">Azure-D3 (Cholecalciferol 60k IU)</option>
                       <option value="BoneVita">BoneVita Comprehensive Matrix</option>
                       <option value="Vitamax Women">Vitamax Women (40+ Active)</option>
                       <option value="Vitamax Men">Vitamax Men (40+ Vitality)</option>
-                      <option value="Custom API / Bulk">Semi-Finished Granules / Pellets / API</option>
+         
                     </select>
                   </div>
                 </div>
+               
                 <div className="flex flex-col gap-1.5">
                   <label className={labelCls} htmlFor="inq-message">Message &amp; Requirements *</label>
                   <textarea
