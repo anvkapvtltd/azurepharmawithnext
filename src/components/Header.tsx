@@ -1,20 +1,26 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
-import { Phone, Mail, Menu, X, Globe, Share2 } from "lucide-react";
+import { usePathname } from "next/navigation";
+import { useEffect, useState } from "react";
+import { Phone, Mail, Menu, X } from "lucide-react";
 
 const nav = [
   { label: "Home", href: "/" },
-  { label: "About Us", href: "#about" },
-  { label: "Products", href: "#products" },
-  { label: "Career", href: "#career" },
-  { label: "Why Azure", href: "#why-azure" },
-  { label: "Contact Us", href: "#contact" },
+  { label: "About Us", href: "/about" },
+  { label: "Products", href: "/products" },
+  { label: "Career", href: "/career" },
+  { label: "Why Azure", href: "/why-azure" },
+  { label: "Contact Us", href: "/contact" },
 ];
 
 export default function Header() {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  // Close the mobile menu whenever the route changes.
+  useEffect(() => setOpen(false), [pathname]);
+  const isActive = (href: string) => (href === "/" ? pathname === "/" : pathname.startsWith(href));
+
   return (
     <header className="sticky top-0 z-50">
       <div className="bg-brand-dark text-white text-xs">
@@ -27,13 +33,6 @@ export default function Header() {
               <Mail size={13} /> info@azurepharma.in
             </a>
           </div>
-          {/* <div className="flex items-center gap-4">
-            <span className="hidden md:inline uppercase tracking-widest text-[10px] text-blue-200">
-              Institutional Procurement Portal
-            </span>
-            <Globe size={14} />
-            <Share2 size={14} />
-          </div> */}
         </div>
       </div>
       <div className="bg-white/95 backdrop-blur border-b border-slate-200 shadow-sm">
@@ -43,7 +42,14 @@ export default function Header() {
           </Link>
           <nav className="hidden lg:flex items-center gap-7 text-sm font-medium text-slate-700">
             {nav.map((n) => (
-              <Link key={n.label} href={n.href} className="hover:text-brand">{n.label}</Link>
+              <Link
+                key={n.label}
+                href={n.href}
+                aria-current={isActive(n.href) ? "page" : undefined}
+                className={`hover:text-brand ${isActive(n.href) ? "text-brand font-semibold" : ""}`}
+              >
+                {n.label}
+              </Link>
             ))}
           </nav>
           <div className="hidden md:flex items-center gap-3">
@@ -54,18 +60,28 @@ export default function Header() {
               Inquire / Contact Us
             </Link>
           </div>
-          <button className="lg:hidden p-2" onClick={() => setOpen(!open)} aria-label="Toggle menu">
+          <button className="lg:hidden p-2" onClick={() => setOpen(!open)} aria-label="Toggle menu" aria-expanded={open}>
             {open ? <X /> : <Menu />}
           </button>
         </div>
         {open && (
-          <nav className="lg:hidden border-t border-slate-200 bg-white px-4 py-3 flex flex-col gap-3 text-sm">
+          <nav className="lg:hidden border-t border-slate-200 bg-white px-4 py-3 flex flex-col text-sm">
             {nav.map((n) => (
-              <Link key={n.label} href={n.href} onClick={() => setOpen(false)}>{n.label}</Link>
+              <Link
+                key={n.label}
+                href={n.href}
+                onClick={() => setOpen(false)}
+                className={`rounded-md px-2 py-2.5 ${isActive(n.href) ? "bg-blue-50 text-brand font-semibold" : "text-slate-700"}`}
+              >
+                {n.label}
+              </Link>
             ))}
-            <a href="#contact" onClick={() => setOpen(false)} className="rounded-md bg-accent px-4 py-2.5 text-center text-white font-semibold">
-              Inquire / Contact Us
-            </a>
+            <div className="mt-2 grid grid-cols-2 gap-2">
+              <a href="tel:+918375001001" className="rounded-md bg-brand px-4 py-2.5 text-center text-white font-semibold">Call Now</a>
+              <Link href="/contact" onClick={() => setOpen(false)} className="rounded-md bg-accent px-4 py-2.5 text-center text-white font-semibold">
+                Inquire Now
+              </Link>
+            </div>
           </nav>
         )}
       </div>

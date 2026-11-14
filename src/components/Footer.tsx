@@ -1,13 +1,21 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 const links = [
-  { label: "About Us", href: "#about" },
-  { label: "Products", href: "#products" },
-  // { label: "Specialities", href: "#specialities" },
-  { label: "Business", href: "#business" },
-  { label: "Why Azure", href: "#why-azure" },
-  { label: "Contact Us", href: "#contact" },
+  { label: "About Us", href: "/about" },
+  { label: "Products", href: "/products" },
+  // { label: "Specialities", href: "/#specialities" },
+  { label: "Business", href: "/#business" },
+  { label: "Why Azure", href: "/why-azure" },
+  { label: "Contact Us", href: "/contact" },
+];
+
+const productLinks = [
+  { name: "Azure-D3", slug: "azure-d3" },
+  { name: "BoneVita", slug: "bonevita" },
+  { name: "Vitamax Women", slug: "vitamax-women" },
+  { name: "Vitamax Men", slug: "vitamax-men" },
 ];
 
 export default function Footer() {
@@ -26,15 +34,15 @@ export default function Footer() {
           <h4 className="text-white font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2 text-sm">
             {links.map((l) => (
-              <li key={l.label}><a href={l.href} className="hover:text-white">{l.label}</a></li>
+              <li key={l.label}><Link href={l.href} className="hover:text-white">{l.label}</Link></li>
             ))}
           </ul>
         </div>
         <div>
           <h4 className="text-white font-semibold mb-4">Our Products</h4>
           <ul className="space-y-2 text-sm">
-            {["Azure-D3", "BoneVita", "Vitamax Women", "Vitamax Men"].map((p) => (
-              <li key={p}><a href="#products" className="hover:text-white">{p}</a></li>
+            {productLinks.map((p) => (
+              <li key={p.slug}><Link href={`/products/${p.slug}`} className="hover:text-white">{p.name}</Link></li>
             ))}
           </ul>
         </div>

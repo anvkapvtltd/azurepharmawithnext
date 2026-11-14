@@ -1,0 +1,208 @@
+[
+  {
+    "id": 1,
+    "slug": "azure-d3",
+    "name": "Azure-D3",
+    "tagline": "Vitamin D3 60,000 IU for Bone Health and Calcium Balance",
+    "category": "Rx Prescription",
+    "type": "Cholecalciferol (Vitamin D3)",
+    "thumbnail": "https://res.cloudinary.com/sabjyzoi/image/upload/v1794641395/All_Product-05_1.webp",
+    "images": [
+      "https://res.cloudinary.com/sabjyzoi/image/upload/v1794641395/All_Product-05_1.webp",
+      "https://res.cloudinary.com/sabjyzoi/image/upload/v1794641068/All_Product-08_1.webp",
+      "https://res.cloudinary.com/sabjyzoi/image/upload/v1794641066/All_Product-06_2.webp",
+      "https://res.cloudinary.com/sabjyzoi/image/upload/v1794641066/All_Product-07_2.webp"
+    ],
+    "forms": ["Soft Gel Capsule", "Sachet"],
+    "shortDescription": "Azure-D3 is a Vitamin D3 (Cholecalciferol) supplement formulated to help restore Vitamin D levels and support bone health. It promotes calcium absorption, helps maintain calcium and phosphate balance, and supports bone mineralization and skeletal muscle strength. Available in convenient Soft gel Capsule and Sachet forms, Azure-D3 supports Vitamin D supplementation across various clinical needs.",
+    "longDescription": {
+      "title": "Azure-D3 – Vitamin D3 60,000 IU for Bone Health and Calcium Balance",
+      "subtitle": null,
+      "paragraphs": [
+        "Maintaining adequate Vitamin D levels is essential for healthy bones, proper calcium absorption, and normal muscle function. Azure-D3 by Azure Drugs & Pharma contains Cholecalciferol (Vitamin D3) 60,000 IU, formulated to support Vitamin D replenishment and promote overall musculoskeletal health.",
+        "Vitamin D3 plays a vital role in regulating calcium and phosphate levels in the body, helping maintain bone mineralization and skeletal strength. It also facilitates calcium absorption and supports the body's ability to maintain healthy calcium balance."
+      ]
+    },
+    "benefits": {
+      "heading": "Key Benefits of Azure-D3",
+      "items": [
+        { "title": "Restores Vitamin D Levels", "description": "Helps replenish Vitamin D3 levels in individuals with Vitamin D deficiency." },
+        { "title": "Enhances Calcium Absorption", "description": "Supports the absorption and utilization of calcium for healthy bones." },
+        { "title": "Maintains Calcium Balance", "description": "Helps regulate calcium and phosphate levels in the body." },
+        { "title": "Supports Bone Mineralization", "description": "Contributes to maintaining bone strength and skeletal health." },
+        { "title": "Supports Muscle Function", "description": "Helps maintain normal skeletal muscle function and strength." }
+      ]
+    },
+    "ingredients": null,
+    "clinicalRelevance": {
+      "heading": "Clinical Relevance",
+      "intro": "Vitamin D3 supplementation plays an important role in nutritional management across various clinical conditions where maintaining adequate Vitamin D levels is essential, including:",
+      "items": [
+        "Vitamin D deficiency (Hypovitaminosis D)",
+        "Osteoporosis and Osteopenia",
+        "Chronic Kidney Disease",
+        "Diabetes",
+        "Malabsorption states",
+        "Fractures",
+        "Coronary Heart Disease",
+        "Dyslipidemia"
+      ]
+    },
+    "availableForms": {
+      "heading": "Available Forms",
+      "intro": "Azure-D3 is available in two convenient dosage forms:",
+      "items": [
+        "Cholecalciferol 60,000 IU Soft Gel Capsules",
+        "Cholecalciferol 60,000 IU Sachets"
+      ]
+    },
+    "highlights": null,
+    "targetAudience": null,
+    "whoMayBenefit": null,
+    "disclaimer": "For use under the guidance of a registered medical practitioner. Dosage and duration should be determined by the treating healthcare professional."
+  },
+  {
+    "id": 2,
+    "slug": "bonevita",
+    "name": "BoneVita",
+    "tagline": "Supporting Stronger Bones and Better Musculoskeletal Health",
+    "category": "Nutraceutical",
+    "type": "Cissus Quadrangularis Linn Extract, Calcium Citrate Malate and Vitamin D3 Tablets",
+    "thumbnail": "https://res.cloudinary.com/sabjyzoi/image/upload/v1794644315/BoneVita.webp",
+    "images": [
+      "https://res.cloudinary.com/sabjyzoi/image/upload/v1794644315/BoneVita.webp",
+      "https://res.cloudinary.com/sabjyzoi/image/upload/v1794644316/All_Product-03_1.webp",
+      "https://res.cloudinary.com/sabjyzoi/image/upload/v1794644314/All_Product-04_1.webp",
+      "https://res.cloudinary.com/sabjyzoi/image/upload/v1794644315/All_Product-02_1.webp"
+    ],
+    "forms": ["Tablet"],
+    "shortDescription": "BoneVita is a combination formulation of Cissus Quadrangularis Linn Extract, Calcium Citrate Malate, and Vitamin D3, designed to support bone strength, bone mineralization, and joint health. Its three-ingredient formulation helps support calcium absorption, maintain healthy bones, and promote overall musculoskeletal well-being.",
+    "longDescription": {
+      "title": "BoneVita – Supporting Stronger Bones and Better Musculoskeletal Health",
+      "subtitle": null,
+      "paragraphs": [
+        "Bone health plays an essential role in maintaining mobility, physical strength, and overall well-being. BoneVita by Azure Drugs & Pharmaceuticals combines three key ingredients – Cissus Quadrangularis Linn Extract, Calcium Citrate Malate, and Vitamin D3 – to provide nutritional support for bone and joint health.",
+        "Each ingredient contributes to maintaining healthy bones and supporting the body's musculoskeletal functions."
+      ]
+    },
+    "benefits": {
+      "heading": "Key Benefits of BoneVita",
+      "items": [
+        { "title": "Supports Bone Strength", "description": "Calcium contributes to maintaining normal bone structure and strength." },
+        { "title": "Promotes Calcium Absorption", "description": "Vitamin D3 helps the body absorb and utilize calcium effectively." },
+        { "title": "Supports Bone Mineralization", "description": "Calcium and Vitamin D3 work together to maintain healthy bone mineralization." },
+        { "title": "Supports Joint Health", "description": "Cissus Quadrangularis extract has been traditionally studied for its potential role in musculoskeletal health." },
+        { "title": "Supports Musculoskeletal Well-being", "description": "The combination provides nutritional support for maintaining healthy bones and normal muscle function." }
+      ]
+    },
+    "ingredients": {
+      "heading": "Key Ingredients",
+      "items": [
+        { "name": "Cissus Quadrangularis Linn Extract", "description": "A botanical ingredient traditionally associated with bone and joint health." },
+        { "name": "Calcium Citrate Malate", "description": "A calcium source that supports bone mineralization and helps maintain bone strength." },
+        { "name": "Vitamin D3", "description": "Helps enhance calcium absorption and contributes to the maintenance of normal bones and muscle function." }
+      ]
+    },
+    "clinicalRelevance": null,
+    "availableForms": null,
+    "highlights": null,
+    "targetAudience": null,
+    "whoMayBenefit": {
+      "heading": "Who May Benefit from BoneVita?",
+      "text": "BoneVita may be considered as part of nutritional support for individuals with increased bone-health requirements, subject to healthcare professional advice."
+    },
+    "disclaimer": null
+  },
+  {
+    "id": 3,
+    "slug": "vitamax-women",
+    "name": "Vitamax Women",
+    "tagline": "Wellness for Every Stage of Womanhood",
+    "category": "Nutraceutical",
+    "type": "Women's Health Formulation",
+    "thumbnail": "https://res.cloudinary.com/sabjyzoi/image/upload/v1794644443/VitamaxWomen.webp",
+    "images": [
+      "https://res.cloudinary.com/sabjyzoi/image/upload/v1794644443/VitamaxWomen.webp",
+      "https://res.cloudinary.com/sabjyzoi/image/upload/v1794644439/All_Product-16.webp",
+      "https://res.cloudinary.com/sabjyzoi/image/upload/v1794644437/All_Product-15.webp"
+    ],
+    "forms": ["Soft Gel Capsule"],
+    "shortDescription": "Vitamax Women is a thoughtfully formulated nutraceutical supplement designed to support the nutritional and wellness needs of women aged 40 and above. Enriched with Shatavari Root Extract and other key ingredients, it supports women's well-being through changing life stages, including menopause and beyond.",
+    "longDescription": {
+      "title": "Vitamax Women – Wellness for Every Stage of Womanhood",
+      "subtitle": "Embrace Every Change. Thrive at Every Stage.",
+      "paragraphs": [
+        "Vitamax Women by Azure Drugs & Pharmaceuticals is a specially formulated nutraceutical supplement designed to support the wellness and nutritional needs of women aged 40 and above.",
+        "As women experience different physical and hormonal changes with age, maintaining overall well-being becomes increasingly important. Vitamax Women combines carefully selected ingredients, including Shatavari Root Extract and Saffron, to complement women's nutritional wellness journey."
+      ]
+    },
+    "benefits": {
+      "heading": "Key Features & Benefits",
+      "items": [
+        { "title": "Women's Wellness Support", "description": "Formulated to complement the nutritional needs of women aged 40+." },
+        { "title": "Menopause Wellness", "description": "Supports overall well-being during the menopausal transition." },
+        { "title": "Emotional Well-being", "description": "Features ingredients selected to support emotional wellness." },
+        { "title": "Menstrual Wellness", "description": "Designed to complement women's wellness needs across changing life stages." },
+        { "title": "PCOS-related Wellness", "description": "Formulated with ingredients studied in the context of women's reproductive health." }
+      ]
+    },
+    "ingredients": null,
+    "clinicalRelevance": null,
+    "availableForms": null,
+    "highlights": null,
+    "targetAudience": "Women aged 40+",
+    "whoMayBenefit": null,
+    "disclaimer": null
+  },
+  {
+    "id": 4,
+    "slug": "vitamax-men",
+    "name": "Vitamax Men",
+    "tagline": "Daily Essential Vitamins & Minerals for Active Men 40+",
+    "category": "Nutraceutical",
+    "type": "Vitality & Stamina Matrix",
+    "thumbnail": "https://res.cloudinary.com/sabjyzoi/image/upload/v1794644572/VitamaxMen.webp",
+    "images": [
+      "https://res.cloudinary.com/sabjyzoi/image/upload/v1794644572/VitamaxMen.webp",
+      "https://res.cloudinary.com/sabjyzoi/image/upload/v1794644569/All_Product-11.webp",
+      "https://res.cloudinary.com/sabjyzoi/image/upload/v1794644584/All_Product-12.webp"
+    ],
+    "forms": ["Soft Gel Capsule"],
+    "shortDescription": "Vitamax Men is a specially formulated nutraceutical supplement designed to complement the daily nutritional needs of men aged 40 and above. It combines Ginkgo Biloba Extract, Panax Ginseng Extract, Fenugreek Oil, Pumpkin Seed Oil, Zeaxanthin, Lutein, Multivitamins and Minerals in a convenient soft gel capsule format to support overall nutritional wellness.",
+    "longDescription": {
+      "title": "Vitamax Men – Daily Essential Vitamins & Minerals for Active Men 40+",
+      "subtitle": null,
+      "paragraphs": [
+        "Vitamax Men is a thoughtfully formulated nutraceutical supplement designed to complement the daily nutritional requirements of active men aged 40 and above.",
+        "Vitamax Men brings together a combination of selected botanical ingredients, antioxidants, vitamins, and minerals in a convenient soft gel capsule formulation to support a balanced approach to men's nutritional wellness."
+      ]
+    },
+    "benefits": null,
+    "ingredients": {
+      "heading": "Key Ingredients",
+      "items": [
+        { "name": "Ginkgo Biloba Extract", "description": "A botanical ingredient traditionally associated with cognitive wellness." },
+        { "name": "Panax Ginseng Extract", "description": "A botanical ingredient commonly used in wellness formulations." },
+        { "name": "Fenugreek Oil", "description": "A plant-derived ingredient included in the formulation." },
+        { "name": "Pumpkin Seed Oil", "description": "A source of plant-based nutritional components." },
+        { "name": "Zeaxanthin & Lutein", "description": "Carotenoids known for their association with eye health." },
+        { "name": "Multivitamins & Minerals", "description": "Help complement everyday nutritional requirements." }
+      ]
+    },
+    "clinicalRelevance": null,
+    "availableForms": null,
+    "highlights": {
+      "heading": "Product Highlights",
+      "items": [
+        "Specially formulated for adult men aged 40+.",
+        "Combines selected botanical ingredients with essential vitamins and minerals.",
+        "Includes lutein and zeaxanthin.",
+        "Convenient soft gel capsule formulation.",
+        "Designed to complement daily nutritional wellness."
+      ]
+    },
+    "targetAudience": "Men aged 40+",
+    "whoMayBenefit": null,
+    "disclaimer": null
+  }
+]
