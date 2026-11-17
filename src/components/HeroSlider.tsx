@@ -1,10 +1,11 @@
 "use client";
-import Image from "next/image";
+import { getImageProps } from "next/image";
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 // Each banner opens its product detail page (slug = products.json "slug").
+// Desktop banner: /assets/{src}.webp (1920×600)  •  Phone banner: /assets/{src}-mobile.webp (1080×720)
 const slides = [
   { src: "Banner-01", slug: "bonevita", alt: "BoneVita – Bone to be Strong" },
   { src: "Banner-02", slug: "azure-d3", alt: "Azure-D3 60K – D-Lightfully Strong!" },
@@ -12,6 +13,23 @@ const slides = [
   { src: "Banner-04", slug: "vitamax-women", alt: "Vitamax Women – Vita-lity Looks Good On Her!" },
 ];
 const DELAY = 5000;
+
+/**
+ * Art-directed banner: the browser downloads ONLY the version that matches the screen
+ * (phone banner below 768px, desktop banner from md / 768px up).
+ */
+function BannerPicture({ src, alt, priority }: { src: string; alt: string; priority: boolean }) {
+  const common = { alt, fill: true, sizes: "100vw", priority };
+  const { props: { srcSet: desktop } } = getImageProps({ ...common, src: `/assets/${src}.webp` });
+  const { props: mobile } = getImageProps({ ...common, src: `/assets/${src}-mobile.webp` });
+  return (
+    <picture>
+      <source media="(min-width: 768px)" srcSet={desktop} />
+      {/* eslint-disable-next-line jsx-a11y/alt-text -- alt comes from getImageProps */}
+      <img {...mobile} className="object-cover" />
+    </picture>
+  );
+}
 
 export default function HeroSlider() {
   const [i, setI] = useState(0);
@@ -38,7 +56,7 @@ export default function HeroSlider() {
     <section
       aria-roledescription="carousel"
       aria-label="Featured products"
-      className="relative w-full h-[260px] sm:h-[340px] md:h-auto md:aspect-[16/5] overflow-hidden bg-slate-100"
+      className="relative w-full aspect-[3/2] md:aspect-[16/5] overflow-hidden bg-slate-100"
       onMouseEnter={() => setPaused(true)}
       onMouseLeave={() => setPaused(false)}
       onTouchStart={(e) => { touchX.current = e.touches[0].clientX; swiped.current = false; setPaused(true); }}
@@ -65,14 +83,7 @@ export default function HeroSlider() {
             onClick={(e) => { if (swiped.current) e.preventDefault(); }}
             className={`absolute inset-0 transition-opacity duration-700 ${idx === i ? "z-[1] opacity-100" : "pointer-events-none opacity-0"}`}
           >
-            <Image
-              src={`/assets/${s.src}.webp`}
-              alt={s.alt}
-              fill
-              priority={idx === 0}
-              sizes="100vw"
-              className="object-cover"
-            />
+            <BannerPicture src={s.src} alt={s.alt} priority={idx === 0} />
           </Link>
         ) : null
       )}

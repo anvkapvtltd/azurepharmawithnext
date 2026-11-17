@@ -41,12 +41,11 @@ export default function InquirySection({ defaultProduct = "" }: { defaultProduct
               <div>
                 <div className="mb-4 inline-flex items-center gap-2 text-blue-200">
                   <BadgeCheck size={18} />
-                  <span className="text-[11px] font-bold uppercase tracking-wider">Institutional Gateway</span>
+                  <span className="text-[11px] font-bold uppercase tracking-wider">INSTITUTIONAL & BUSINESS ENQUIRIES</span>
                 </div>
                 <h3 className="mb-4 text-3xl md:text-4xl font-bold">Partner with Azure Pharma</h3>
                 <p className="mb-8 leading-relaxed text-slate-300">
-                  Initiate discussions for nationwide distribution, tender procurement, technology transfer, or bulk
-                  contract manufacturing. Our institutional team responds within 24 hours.
+                 Looking to collaborate on pharmaceutical distribution, institutional procurement, technology transfer, or contract manufacturing? Connect with our team to explore business opportunities and build lasting partnerships.
                 </p>
                 <div className="space-y-6">
                   <div className="flex items-start gap-3.5">
@@ -84,9 +83,9 @@ export default function InquirySection({ defaultProduct = "" }: { defaultProduct
             <div className="lg:col-span-7 p-5 md:p-12">
               <div className="mb-6">
                 {/* <span className="text-[11px] font-bold uppercase tracking-wider text-accent">RFQ &amp; Distribution Form</span> */}
-                <h4 className="mt-1 text-2xl font-semibold text-slate-900">Submit Institutional Inquiry</h4>
+                <h4 className="mt-1 text-2xl font-semibold text-slate-900">Submit an Institutional Inquiry</h4>
                 <p className="mt-1 text-sm text-slate-500">
-                  Strictly for healthcare professionals, institutions, distributors, and bulk formulation partners.
+                 Connect with our team for pharmaceutical procurement, institutional supplies, distribution partnerships, and bulk formulation requirements.
                 </p>
               </div>
               <form className="space-y-4" onSubmit={onSubmit}>
@@ -128,20 +127,20 @@ export default function InquirySection({ defaultProduct = "" }: { defaultProduct
                     name="message"
                     rows={3}
                     required
-                    placeholder="Specify your therapeutic requirements, destination market, batch volume, or documentation needs..."
+                    placeholder="Share your product requirements, therapeutic needs, target market, order quantities, or documentation requirements."
                     className="w-full rounded-lg bg-blue-50/70 p-3.5 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-brand"
                   />
                 </div>
                 <div className="flex flex-col items-center justify-between gap-4 pt-2 sm:flex-row">
                   <span className="text-xs text-slate-500">
-                    By submitting, you agree to our standard healthcare procurement compliance policy.
+                   By submitting this form, you agree to our Privacy Policy and consent to being contacted regarding your inquiry
                   </span>
                   <button
                     type="submit"
                     disabled={status.type === "loading"}
-                    className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-accent px-7 py-3 text-sm font-semibold text-white shadow-md transition-all hover:bg-red-700 disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-accent px-3 py-3 text-sm font-semibold text-white shadow-md transition-all hover:bg-red-700 disabled:cursor-not-allowed disabled:opacity-70 sm:w-auto"
                   >
-                    {status.type === "loading" ? (<>Sending… <Loader2 size={16} className="animate-spin" /></>) : (<>Send Inquiry <Send size={16} /></>)}
+                    {status.type === "loading" ? (<>Sending… <Loader2 size={16} className="animate-spin" /></>) : (<>Submit Inquiry <Send size={16} /></>)}
                   </button>
                 </div>
                 {(status.type === "success" || status.type === "error") && (

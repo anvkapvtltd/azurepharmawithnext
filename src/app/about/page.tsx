@@ -27,31 +27,32 @@ const stats = [
 ];
 
 const governance = [
-  "Zero Compromise Batch Traceability & Retention Protocols",
-  "Independent Quality Assurance Over-Ride Mandate",
-  "Transparent Regulatory Auditing with Institutional Partners",
+  "Quality in Every Product ",
+  "Integrity in Every Partnership",
+  "Excellence in Every Process",
+  "Affordability in Healthcare"
 ];
 
 const vmq = [
-  { icon: Eye, eyebrow: "Aspiration", title: "Our Vision", text: "“To be a trusted global pharmaceutical and healthcare organization, improving lives through quality healthcare for all humanity.”", foot: "Worldwide Impact", footIcon: Globe, c: "bg-blue-50 text-brand" },
-  { icon: Target, eyebrow: "Mandate", title: "Our Mission", text: "“To provide safe, effective, and quality medicines at affordable prices while upholding the highest standards of quality, trust, and integrity.”", foot: "Accessible Excellence", footIcon: HeartHandshake, c: "bg-emerald-50 text-emerald-600" },
-  { icon: Microscope, eyebrow: "Scientific Discipline", title: "The Quality Creed", text: "“Zero deviation tolerance. Every batch of solid orals, injectables, or nutraceutical complexes adheres strictly to pharmacopoeial specifications before institutional dispatch.”", foot: "Pharmacopoeial Conformity", footIcon: BookOpen, c: "bg-indigo-50 text-indigo-600" },
+  { icon: Eye, eyebrow: "PRODUCT EXCELLENCE", title: "Pharmaceutical Expertise", text: "“Focused on pharmaceutical formulations, branded generics, prescription products, and diverse healthcare supply requirements.”", foot: "Quality-Driven Solutions", footIcon: Globe, c: "bg-blue-50 text-brand" },
+  { icon: Target, eyebrow: "STRATEGIC COLLABORATION", title: "Building Strong Partnerships", text: "“Developing long-term relationships with pharmaceutical companies, hospitals, distributors, and institutional partners.”", foot: "Trust & Collaboration", footIcon: HeartHandshake, c: "bg-emerald-50 text-emerald-600" },
+  { icon: Microscope, eyebrow: "BUSINESS EXPANSION", title: "Expanding Market Opportunities", text: "“Strengthening domestic and international business opportunities through flexible business models and market-focused strategies.”", foot: "Growth & Market Reach", footIcon: BookOpen, c: "bg-indigo-50 text-indigo-600" },
 ];
 
 const values = [
-  { icon: Scale, title: "Integrity & Ethics", text: "Operating with uncompromising transparency, institutional compliance, and ethical standards across clinical research, procurement, management, and commercial distribution.", foot: "Unbending Compliance", c: "text-brand bg-blue-50" },
-  { icon: Heart, title: "Patient Centric", text: "Designing formulations that prioritize therapeutic effectiveness, ease of administration, safety margins, and affordable healthcare access.", foot: "Human-First Outcomes", c: "text-accent bg-red-50" },
-  { icon: TrendingUp, title: "Continuous Improvement", text: "Perpetually refining manufacturing efficiencies, analytical testing regimes, bio-availability assays, and supply chain technologies for global-standard outcomes.", foot: "KAIZEN & R&D Iteration", c: "text-brand bg-blue-50" },
-  { icon: BadgeCheck, title: "Quality First", text: "Zero tolerance for deviation. Every batch adheres strictly to stringent pharmacopoeial standards (IP, BP, USP) and validated protocols.", foot: "Pharmacopoeial Precision", c: "text-emerald-600 bg-emerald-50" },
+  { icon: Scale, title: "Integrity & Ethics", text: "Upholding transparency, ethical business practices, and regulatory compliance across our pharmaceutical operations, institutional relationships, and commercial activities.", foot: "Uncompromising Integrity", c: "text-brand bg-blue-50" },
+  { icon: Heart, title: "Patient-Centric Approach", text: "Keeping patient well-being at the forefront by prioritizing product quality, therapeutic effectiveness, safety, and access to affordable healthcare.", foot: "Patient-First Approach", c: "text-accent bg-red-50" },
+  { icon: TrendingUp, title: "Continuous Improvement", text: "Continuously enhancing our business processes, operational efficiency, product standards, and capabilities to meet evolving pharmaceutical and healthcare needs.", foot: "Progress Through Innovation", c: "text-brand bg-blue-50" },
+  { icon: BadgeCheck, title: "Quality First", text: "Maintaining a strong commitment to product quality, safety, consistency, and applicable pharmaceutical standards across our business operations.", foot: "Commitment to Quality", c: "text-emerald-600 bg-emerald-50" },
 ];
 
 const capabilities = [
-  { icon: Pill, title: "Finished Formulations", text: "Solid oral tablets, soft gelatin capsules, injectables, and sterile oral liquid preparations manufactured in controlled cleanroom classifications.", points: ["Coated & Uncoated Tablets", "Softgels & Liquid Encapsulations", "Sterile Small Volume Parenterals"], c: "bg-blue-50 text-brand" },
-  { icon: Layers, title: "Semi-Finished Formulations", text: "Custom-tailored granules, sustained-release coated pellets, and bulk intermediates ready for direct compression or secondary encapsulation worldwide.", points: ["Enteric-Coated Pellets", "Direct Compression Granules (DC)", "Controlled Dissolution Matrices"], c: "bg-blue-50 text-brand" },
-  { icon: ArrowLeftRight, title: "Technology Transfer & R&D", text: "Complete dossier exchange, analytical method transfer (AMT), pilot batch validation, and scale-up engineering for institutional overseas partners.", points: ["Analytical Validation Reports", "Bioequivalence Protocol Dossiers", "On-site Technical Auditing"], c: "bg-emerald-50 text-emerald-600" },
-  { icon: Factory, title: "Contract Manufacturing", text: "cGMP compliant facilities with flexible, high-speed automated packaging lines offering institutional custom branding and packaging formats.", points: ["Alu-Alu & Blister Packaging", "High Speed HDPE Bottling", "Tamper-Evident Serialization"], c: "bg-blue-50 text-brand" },
-  { icon: Beaker, title: "API Supplies & Sourcing", text: "Direct high-purity active pharmaceutical ingredient sourcing supported by open-part Drug Master Files (DMF) and comprehensive purity assays.", points: ["US DMF & CEP Ready APIs", "Chiral Purity Profiling", "Residual Solvent Limit Tests"], c: "bg-indigo-50 text-indigo-600" },
-  { icon: BriefcaseMedical, title: "Surgical & Disposables", text: "Sterile hospital consumables, specialized medical devices, surgical drapes, and infusion equipment serving acute clinical environments.", points: ["Sterile IV Administration Sets", "Hospital Consumables Formulary", "Gamma-Irradiated Disposables"], c: "bg-red-50 text-accent" },
+  { icon: Pill, title: "Finished Formulations", text: "Our portfolio includes critical care injectables, oral solid dosages, IV infusions, oncology products, and specialty formulations designed for diverse therapeutic needs.", points: ["Wide therapeutic coverage", "Global quality compliance", "Ready-to-market formulations", "Custom branding and packaging options"], c: "bg-blue-50 text-brand" },
+  { icon: Layers, title: "Semi-Finished Formulations", text: "We provide high-quality semi-finished formulations, including granules, pellets, and bulk intermediates, enabling pharmaceutical companies to optimize their production processes and reduce operational costs.", points: ["Consistent and scalable supply", "High-quality granules and pellets", "Flexible bulk supply options", "Suitable for contract manufacturing and private labeling"], c: "bg-blue-50 text-brand" },
+  { icon: ArrowLeftRight, title: "Technology Transfer with API Supply", text: "We offer end-to-end technology transfer solutions integrated with a reliable API supply, ensuring seamless product development and commercialization across global markets.", points: ["Complete process transfer support", "Integrated API sourcing", "Regulatory documentation assistance", "Faster commercialization timelines"], c: "bg-emerald-50 text-emerald-600" },
+  { icon: Factory, title: "Contract Manufacturing", text: "Our contract manufacturing services are designed to provide flexible, scalable, and cost-effective production solutions for pharmaceutical companies worldwide.", points: ["WHO-GMP-compliant manufacturing", "High production capacity", "Custom formulation and packaging", "Cost-efficient and reliable solutions"], c: "bg-blue-50 text-brand" },
+  { icon: Beaker, title: "API Supplies", text: "We supply a wide range of Active Pharmaceutical Ingredients (APIs) sourced from globally accredited manufacturers.", points: ["Globally sourced, high-quality APIs", "Strong supply chain network", "Competitive pricing", "Reliable and timely delivery"], c: "bg-indigo-50 text-indigo-600" },
+  { icon: BriefcaseMedical, title: "Surgical and Disposables", text: "We offer a comprehensive range of surgical products and disposables designed to support hospitals, clinics, and healthcare facilities in delivering safe and efficient patient care.", points: ["High-quality medical disposables", "Infection control solutions", "Reliable hospital supplies", "Designed for safety and efficiency"], c: "bg-red-50 text-accent" },
 ];
 
 const regions = [
@@ -70,19 +71,19 @@ const domestic = [
 ];
 
 const certs = [
-  { icon: ShieldCheck, title: "WHO-GMP", sub: "Certified Facilities", c: "bg-blue-50 text-brand" },
-  { icon: Award, title: "ISO 9001:2015", sub: "Quality Management", c: "bg-blue-50 text-brand" },
-  { icon: FlaskConical, title: "GLP Validated", sub: "Analytical Labs", c: "bg-emerald-50 text-emerald-600" },
-  { icon: BookOpen, title: "IP / BP / USP", sub: "Pharmacopoeial Assays", c: "bg-indigo-50 text-indigo-600" },
-  { icon: FileCheck2, title: "CTD / eCTD", sub: "Ready Dossiers", c: "bg-red-50 text-accent" },
+  { icon: ShieldCheck, title: "WHO-GMP", sub: "Manufacturing Standards", c: "bg-blue-50 text-brand" },
+  { icon: Award, title: "Global Accreditations", sub: "US-FDA, MHRA, EU-GMP & More", c: "bg-blue-50 text-brand" },
+  { icon: FlaskConical, title: "NABL Testing", sub: "Product Equivalency Studies", c: "bg-emerald-50 text-emerald-600" },
+  { icon: BookOpen, title: "CTD / eCTD / ACTD ", sub: "Regulatory Dossiers", c: "bg-indigo-50 text-indigo-600" },
+  { icon: FileCheck2, title: "Regulatory Registration Support ", sub: "Technical Expertise & Country-Specific Requirements", c: "bg-red-50 text-accent" },
 ];
 
 export default function AboutPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-b from-blue-50/80 to-white pb-14 pt-6 md:pb-20">
-        <div className="mx-auto max-w-7xl px-4">
+      <section className="bg-gradient-to-b from-blue-50/80 to-white pb-14 pt-6 md:pb-10">
+        <div className="mx-auto max-w-[90%] px-4">
           <nav className="flex items-center gap-1.5 text-xs text-slate-500">
             <Link href="/" className="inline-flex items-center gap-1 hover:text-brand"><Home size={13} /> Home</Link>
             <ChevronRight size={13} />
@@ -92,15 +93,13 @@ export default function AboutPage() {
           <div className="mt-6 grid items-center gap-10 lg:grid-cols-12">
             <div className="lg:col-span-7">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-blue-100 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-brand">
-                <BadgeCheck size={13} /> Institutional Life Sciences &amp; Formulations
+                <BadgeCheck size={13} /> INSTITUTIONAL LIFE SCIENCES &amp; PHARMACEUTICAL SOLUTIONS
               </span>
               <h1 className="mt-5 text-4xl font-bold leading-tight text-slate-900 sm:text-5xl lg:text-[3.4rem]">
-                Engineering Clinical Excellence, <span className="text-brand">Empowering Global</span> Healthcare.
+                Advancing Pharmaceutical Excellence, <span className="text-brand">Strengthening Global</span> Healthcare.
               </h1>
               <p className="mt-5 max-w-2xl leading-relaxed text-slate-600">
-                Azure Drugs &amp; Pharmaceuticals stands at the forefront of modern pharmaceutical formulation, hospital
-                healthcare integration, and international regulatory compliance. Backed by a premier Indian healthcare
-                group, we deliver life-enhancing therapeutic solutions with unyielding diagnostic rigor.
+                Azure Drugs & Pharmaceuticals is part of a diversified Indian business group with interests in hospitals and healthcare services. With expertise across pharmaceutical manufacturing, marketing, and institutional supplies, we are committed to delivering quality-driven healthcare solutions through strong industry partnerships and a focus on operational excellence.
               </p>
               <div className="mt-7 flex flex-wrap gap-3">
                 <a href="#legacy" className="inline-flex items-center gap-2 rounded-lg bg-brand px-5 py-3 text-sm font-semibold text-white hover:bg-brand-dark">
@@ -142,46 +141,30 @@ export default function AboutPage() {
       </section>
 
       {/* Legacy */}
-      <section id="legacy" className="py-14 md:py-20">
-        <div className="mx-auto grid max-w-7xl gap-10 px-4 lg:grid-cols-12">
+      <section id="legacy" className="py-5 md:py-5">
+        <div className="mx-auto grid max-w-[90%] gap-10 px-4 lg:grid-cols-12">
           <div className="lg:col-span-7">
             <Eyebrow><span className="inline-flex items-center gap-1.5"><Landmark size={14} /> Corporate Genesis &amp; Heritage</span></Eyebrow>
-            <h2 className="mt-3 text-3xl font-bold text-slate-900 md:text-4xl">A Legacy of Healthcare Leadership &amp; Institutional Trust</h2>
+            <h2 className="mt-3 text-3xl font-bold text-slate-900 md:text-4xl">A Legacy of Healthcare Leadership & Institutional Trust</h2>
             <div className="mt-6 space-y-4 leading-relaxed text-slate-600">
               <p>
-                Azure Drugs &amp; Pharmaceuticals is an integral constituent of an Indian Diversified Business Group with
-                distinguished eminence across hospitals, specialized clinic chains, tertiary healthcare delivery, and
-                high-precision scientific infrastructure. Our existence was chartered with a singular mandate: to bridge
-                diagnostic excellence with accessible, bioequivalent, and life-critical medicines.
+               Azure Drugs & Pharmaceuticals is part of an Indian diversified business group with an established presence in hospitals and healthcare services. Our foundation is built on a broader understanding of healthcare needs, supported by institutional experience and a commitment to pharmaceutical excellence. 
+
               </p>
               <p>
-                Leveraging clinical synergies across institutional care settings, we engineer solid orals, specialized soft
-                gelatin capsules, sterile liquids, and specialized nutritional therapies. Our operations are governed by
-                veteran scientific leadership and an agile business development core, positioning Azure as a preferred
-                formulation partner for hospital formularies, state health ministries, and global pharmaceutical distributors.
+               With a focus on pharmaceutical manufacturing, marketing, and institutional business, we aim to bridge the gap between evolving healthcare requirements and reliable pharmaceutical solutions. 
+
               </p>
               <p>
-                Through comprehensive backward integration, Drug Master File (DMF) validated active raw materials, and
-                precision analytical labs, Azure translates complex pharmacokinetics into scalable, high-stability commercial
-                therapies that safeguard patient outcomes across varied clinical environments.
+                Our business approach combines experienced leadership, pharmaceutical expertise, and strategic partnerships to serve hospitals, healthcare institutions, distributors, and pharmaceutical partners across domestic and international markets.
+
+              </p>
+              <p>
+               Driven by our commitment to quality, efficacy, safety, and responsible business practices, we continue to strengthen our capabilities and contribute to the evolving pharmaceutical and healthcare landscape.
+
               </p>
             </div>
-            <div className="mt-8 grid gap-4 sm:grid-cols-2">
-              <div className="flex gap-3 rounded-2xl bg-blue-50/70 p-5">
-                <Hospital size={20} className="mt-0.5 shrink-0 text-brand" />
-                <div>
-                  <p className="font-semibold text-slate-900">Hospital Ecosystem Synergy</p>
-                  <p className="mt-1 text-xs text-slate-500">Direct feedback from acute care clinical departments guiding formulation design.</p>
-                </div>
-              </div>
-              <div className="flex gap-3 rounded-2xl bg-blue-50/70 p-5">
-                <FlaskConical size={20} className="mt-0.5 shrink-0 text-brand" />
-                <div>
-                  <p className="font-semibold text-slate-900">Analytical Validation</p>
-                  <p className="mt-1 text-xs text-slate-500">State-of-the-art HPLC, dissolution assays, and accelerated Zone IVb stability testing.</p>
-                </div>
-              </div>
-            </div>
+      
           </div>
 
           <div className="space-y-6 lg:col-span-5">
@@ -190,14 +173,13 @@ export default function AboutPage() {
               <div className="flex items-center gap-3">
                 <span className="grid h-10 w-10 place-items-center rounded-full bg-blue-50 text-brand"><Users size={18} /></span>
                 <div>
-                  <p className="font-semibold text-slate-900">Executive Leadership Voice</p>
-                  <p className="text-xs text-slate-500">Corporate Governance Council</p>
+                  <p className="font-semibold text-slate-900">Our Commitment</p>
+                  {/* <p className="text-xs text-slate-500">Corporate Governance Council</p> */}
                 </div>
               </div>
               <p className="relative mt-5 italic leading-relaxed text-slate-700">
-                “Our conviction is rooted in sterile integrity and measurable patient recovery. In modern healthcare,
-                pharmaceutical manufacturing is not simply a business of supply—it is a covenant of trust between our
-                research benches and the bedside of every patient we touch across India and the globe.”
+                “At Azure Drugs & Pharmaceuticals, we are committed to supporting the evolving needs of the healthcare industry through quality-driven pharmaceutical solutions, responsible business practices, and lasting partnerships.”
+
               </p>
               <div className="mt-6 flex items-end justify-between border-t border-slate-100 pt-4">
                 <div>
@@ -209,7 +191,7 @@ export default function AboutPage() {
             </div>
 
             <div className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
-              <p className="flex items-center gap-2 font-semibold text-slate-900"><ShieldCheck size={18} className="text-brand" /> Governance &amp; Stewardship Principles</p>
+              <p className="flex items-center gap-2 font-semibold text-slate-900"><ShieldCheck size={18} className="text-brand" /> Our Business Principles</p>
               <ul className="mt-4 space-y-3">
                 {governance.map((g) => (
                   <li key={g} className="flex items-start gap-2.5 text-sm text-slate-600">
@@ -223,12 +205,11 @@ export default function AboutPage() {
       </section>
 
       {/* Vision Mission Creed */}
-      <section className="bg-slate-50 py-14 md:py-20">
-        <div className="mx-auto max-w-7xl px-4">
+      <section className="bg-slate-50 py-14 md:py-10">
+        <div className="mx-auto max-w-[90%] px-4">
           <div className="text-center">
-            <Eyebrow className="text-emerald-600">Strategic Horizon</Eyebrow>
-            <h2 className="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">Vision, Mission &amp; Quality Creed</h2>
-            <p className="mx-auto mt-3 max-w-2xl text-slate-600">Anchoring every formulation, clinical trial, and distribution agreement on globally recognized therapeutic benchmarks.</p>
+            <h2 className="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">Our Strategic Priorities</h2>
+            <p className="mx-auto mt-3 max-w-2xl text-slate-600">Driving pharmaceutical excellence through quality-focused operations, strategic partnerships, and sustainable business growth. </p>
           </div>
           <div className="mt-12 grid gap-6 md:grid-cols-3">
             {vmq.map((v) => (
@@ -247,14 +228,14 @@ export default function AboutPage() {
       </section>
 
       {/* Core Values */}
-      <section className="py-14 md:py-20">
-        <div className="mx-auto max-w-7xl px-4">
+      <section className="py-14 md:py-10">
+        <div className="mx-auto max-w-[90%] px-4">
           <div className="grid gap-4 md:grid-cols-2 md:items-end">
             <div>
               <Eyebrow>Institutional Foundation</Eyebrow>
               <h2 className="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">Our 4 Core Values</h2>
             </div>
-            <p className="text-slate-600">These principles dictate every internal procedure, hospital partnership, and scientific evaluation across Azure&apos;s commercial footprint.</p>
+            <p className="text-slate-600">The principles that guide our business decisions, shape our partnerships, and strengthen our commitment to pharmaceutical excellence.</p>
           </div>
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {values.map((v, i) => (
@@ -271,13 +252,13 @@ export default function AboutPage() {
       </section>
 
       {/* Capabilities */}
-      <section className="bg-slate-50 py-14 md:py-20">
-        <div className="mx-auto max-w-7xl px-4">
+      <section className="bg-slate-50 py-14 md:py-10">
+        <div className="mx-auto max-w-[90%] px-4">
           <div className="flex flex-wrap items-end justify-between gap-6">
             <div className="max-w-2xl">
-              <Eyebrow className="text-accent">Manufacturing Rigor</Eyebrow>
-              <h2 className="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">End-to-End Formulation Lifecycle Capabilities</h2>
-              <p className="mt-3 text-slate-600">From raw active pharmaceutical ingredients to high-capacity finished dosing forms, our manufacturing infrastructure serves international institutional requirements.</p>
+              <Eyebrow className="text-accent">MANUFACTURING CAPABILITIES</Eyebrow>
+              <h2 className="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">End-to-End Pharmaceutical Formulation Capabilities</h2>
+              <p className="mt-3 text-slate-600">From active pharmaceutical ingredients to finished dosage forms, our capabilities span multiple stages of pharmaceutical formulation, processing, and supply to support diverse business and institutional requirements.</p>
             </div>
             <div className="flex items-center gap-3 rounded-xl border border-slate-200 bg-white px-4 py-3">
               <FlaskConical size={20} className="text-emerald-600" />
@@ -310,16 +291,17 @@ export default function AboutPage() {
               <Image src="/assets/aboutus.png" alt="Quality control laboratory" width={1000} height={680} className="h-auto w-full" />
             </div>
             <div className="md:col-span-7">
-              <Eyebrow className="text-emerald-600">Good Laboratory Practice (GLP) Auditing</Eyebrow>
-              <h3 className="mt-2 text-2xl font-bold text-slate-900">Integrated Quality Control &amp; Stability Regimes</h3>
+              <Eyebrow className="text-emerald-600">QUALITY ASSURANCE & ANALYTICAL TESTING</Eyebrow>
+              <h3 className="mt-2 text-2xl font-bold text-slate-900">Integrated Quality Control & Stability Testing</h3>
               <p className="mt-3 leading-relaxed text-slate-600">
-                Every pharmaceutical dosage released by Azure undergoes triple-redundancy analytical verification. Our
-                laboratories are equipped with validated High-Performance Liquid Chromatography (HPLC), Dissolution Testers
-                with automated sampling, and stability chambers configured for Climatic Zone IVb (hot &amp; humid) to ensure
-                stability across equatorial export destinations.
+               Quality is central to every stage of pharmaceutical manufacturing and product evaluation. Our quality-focused approach emphasizes analytical testing, dissolution assessment, and stability studies to support product quality, consistency, and compliance with applicable pharmaceutical standards.
+
+              </p>
+              <p className="mt-3 leading-relaxed text-slate-600">
+              Our testing framework includes analytical techniques such as High-Performance Liquid Chromatography (HPLC), dissolution testing, and stability studies designed to evaluate product performance under defined environmental conditions. 
               </p>
               <div className="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-4">
-                {[["Zone IVb", "Stability Testing", "text-brand"], ["HPLC", "Assay Precision", "text-brand"], ["100%", "Dissolution Assays", "text-brand"], ["eCTD", "Dossier Formats", "text-accent"]].map(([v, l, c]) => (
+                {[["Zone IVb", "Stability Testing", "text-brand"], ["HPLC", "Analytical Precision", "text-brand"], ["100%", "Product Performance", "text-brand"], ["eCTD", "Electronic Dossier Format", "text-accent"]].map(([v, l, c]) => (
                   <div key={v} className="rounded-xl bg-slate-50 p-3 text-center">
                     <p className={`text-lg font-bold ${c}`}>{v}</p>
                     <p className="text-[11px] text-slate-500">{l}</p>
@@ -332,12 +314,12 @@ export default function AboutPage() {
       </section>
 
       {/* Global & Domestic */}
-      <section className="py-14 md:py-20">
-        <div className="mx-auto max-w-7xl px-4">
+      {/* <section className="py-14 md:py-10">
+        <div className="mx-auto max-w-[90%] px-4">
           <div className="text-center">
-            <Eyebrow className="text-accent">Commercial Reach</Eyebrow>
-            <h2 className="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">Global &amp; Domestic Horizons</h2>
-            <p className="mx-auto mt-3 max-w-2xl text-slate-600">From central state health ministry tenders across India to specialized CTD registrations across 7 international territories.</p>
+            <Eyebrow className="text-accent">GLOBAL REGULATORY COMPLIANCE</Eyebrow>
+            <h2 className="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">International Manufacturing Standards & Regulatory Support</h2>
+            <p className="mx-auto mt-3 max-w-2xl text-slate-600">Quality-focused manufacturing partnerships, product equivalency testing, and regulatory documentation for global markets.</p>
           </div>
 
           <div className="mt-12 grid gap-6 lg:grid-cols-2">
@@ -404,14 +386,14 @@ export default function AboutPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Certifications */}
-      <section className="bg-slate-50 py-14 md:py-20">
-        <div className="mx-auto max-w-7xl px-4 text-center">
-          <Eyebrow className="text-emerald-600">Institutional Validation</Eyebrow>
-          <h2 className="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">Regulatory Certifications &amp; Accreditations</h2>
-          <p className="mx-auto mt-3 max-w-2xl text-slate-600">Azure operations conform to audited domestic and global pharmaceutical manufacturing conventions.</p>
+      <section className="bg-slate-50 py-14 md:py-10">
+        <div className="mx-auto max-w-[90%] px-4 text-center">
+          <Eyebrow className="text-emerald-600">GLOBAL REGULATORY COMPLIANCE</Eyebrow>
+          <h2 className="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">International Manufacturing Standards & Regulatory Support</h2>
+          <p className="mx-auto mt-3 max-w-2xl text-slate-600">Quality-focused manufacturing partnerships, product equivalency testing, and regulatory documentation for global markets.</p>
           <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
             {certs.map((c) => (
               <div key={c.title} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
@@ -425,18 +407,16 @@ export default function AboutPage() {
       </section>
 
       {/* Partner CTA */}
-      <section id="contact" className="py-14 md:py-20">
-        <div className="mx-auto max-w-7xl px-4">
+      <section id="contact" className="py-14 md:py-10">
+        <div className="mx-auto max-w-[90%] px-4">
           <div className="grid gap-10 overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 via-brand-dark to-slate-900 p-7 text-white shadow-xl md:p-12 lg:grid-cols-12 lg:items-center">
             <div className="lg:col-span-7">
               <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-emerald-300">
                 <BadgeCheck size={13} /> Institutional RFQ &amp; Formulations Partnership
               </span>
-              <h2 className="mt-5 text-4xl font-bold leading-tight md:text-5xl">Partner with Azure Drugs &amp; Pharmaceuticals</h2>
+              <h2 className="mt-5 text-4xl font-bold leading-tight md:text-5xl">Let's Build Better Healthcare Partnerships</h2>
               <p className="mt-5 max-w-xl leading-relaxed text-slate-300">
-                Whether you are an overseas importer seeking registered CTD dossier distribution, a hospital formulary
-                manager requiring high-reliability solid orals, or a brand sponsor in need of cGMP contract manufacturing,
-                our executive business development team is ready to assist.
+                Whether you are a pharmaceutical company seeking manufacturing partnerships, an international distributor exploring market opportunities, a hospital looking for reliable pharmaceutical supplies, or a business partner interested in product licensing and technology transfer, Azure Drugs & Pharmaceuticals is ready to explore opportunities with you. 
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
                 <Link href="/#contact" className="inline-flex items-center gap-2 rounded-lg bg-brand px-5 py-3 text-sm font-semibold text-white hover:bg-blue-700">
