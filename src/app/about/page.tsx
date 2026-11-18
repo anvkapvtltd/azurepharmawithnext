@@ -414,7 +414,7 @@ export default function AboutPage() {
               <span className="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/15 px-3 py-1 text-[10px] font-bold uppercase tracking-wider text-emerald-300">
                 <BadgeCheck size={13} /> Institutional RFQ &amp; Formulations Partnership
               </span>
-              <h2 className="mt-5 text-4xl font-bold leading-tight md:text-5xl">Let's Build Better Healthcare Partnerships</h2>
+              <h2 className="mt-5 text-4xl font-bold leading-tight md:text-5xl">{"Let's Build Better Healthcare Partnerships"}</h2>
               <p className="mt-5 max-w-xl leading-relaxed text-slate-300">
                 Whether you are a pharmaceutical company seeking manufacturing partnerships, an international distributor exploring market opportunities, a hospital looking for reliable pharmaceutical supplies, or a business partner interested in product licensing and technology transfer, Azure Drugs & Pharmaceuticals is ready to explore opportunities with you. 
               </p>
