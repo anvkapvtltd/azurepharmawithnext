@@ -49,7 +49,7 @@ export default async function ProductDetailPage({ params }: Params) {
     <>
       {/* Breadcrumb */}
       <div className="border-b border-slate-200 bg-blue-50/60">
-        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-2 px-4 py-3 text-xs sm:text-sm">
+        <div className="mx-auto flex max-w-[90%] flex-wrap items-center justify-between gap-2 md:px-4 py-3 text-xs sm:text-sm">
           <nav className="flex flex-wrap items-center gap-1.5 text-slate-500">
             <Link href="/" className="inline-flex items-center gap-1 hover:text-brand"><Home size={14} /> Home</Link>
             <ChevronRight size={14} />
@@ -64,8 +64,8 @@ export default async function ProductDetailPage({ params }: Params) {
       </div>
 
       {/* Hero */}
-      <section className={`bg-gradient-to-b ${theme.gradient} py-10 md:py-14`}>
-        <div className="mx-auto grid max-w-7xl gap-10 px-4 lg:grid-cols-12">
+      <section className={`bg-gradient-to-b ${theme.gradient} py-5 md:py-10`}>
+        <div className="mx-auto grid max-w-[90%] gap-10 md:px-4 lg:grid-cols-12">
           <div className="lg:col-span-5">
             <ProductGallery images={p.images} name={p.name} ring={theme.ring} label={p.tagline.split(" ").slice(0, 4).join(" ")} labelCls={theme.badge} />
             <div className="mt-4 grid grid-cols-3 gap-3">
@@ -143,7 +143,7 @@ export default async function ProductDetailPage({ params }: Params) {
 
       {/* Highlight strip */}
       <section className={`border-y border-slate-200 ${theme.softBg}`}>
-        <div className="mx-auto flex max-w-7xl flex-col gap-6 px-4 py-6 md:flex-row md:items-center md:justify-between">
+        <div className="mx-auto flex max-w-[90%] flex-col gap-6 md:px-4 py-6 md:flex-row md:items-center md:justify-between">
           <div className="flex items-center gap-4">
             <span className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-white shadow-sm"><Pill className={theme.text} /></span>
             <div>
@@ -159,8 +159,8 @@ export default async function ProductDetailPage({ params }: Params) {
       </section>
 
       {/* Tabs */}
-      <section className="bg-slate-50 py-12 md:py-16">
-        <div className="mx-auto max-w-7xl px-4">
+      <section className="bg-slate-50 py-5 md:py-10">
+        <div className="mx-auto max-w-[90%] md:px-4">
           <p className="flex items-center gap-2 text-[11px] font-bold uppercase tracking-widest text-slate-600">
             <span className="h-2 w-2 rounded-full bg-brand" /> Product Information
           </p>
@@ -170,8 +170,8 @@ export default async function ProductDetailPage({ params }: Params) {
       </section>
 
       {/* Other products */}
-      <section className="bg-blue-50/60 py-12 md:py-16">
-        <div className="mx-auto max-w-7xl px-4">
+      <section className="bg-blue-50/60 py-5 md:py-10">
+        <div className="mx-auto max-w-[90%] md:px-4">
           <div className="flex flex-wrap items-end justify-between gap-3">
             <div>
               <p className="text-[11px] font-bold uppercase tracking-widest text-slate-600">Explore More</p>

@@ -63,7 +63,7 @@ export default function CareerPage() {
     <>
       {/* Hero */}
       <section className="bg-gradient-to-b from-blue-50/80 to-white pb-14 pt-6">
-        <div className="mx-auto max-w-7xl px-4">
+        <div className="mx-auto max-w-[90%] md:px-4">
           <div className="flex flex-wrap items-center justify-between gap-2 text-xs">
             <nav className="flex items-center gap-1.5 text-slate-500">
               <Link href="/" className="inline-flex items-center gap-1 hover:text-brand"><Home size={13} /> Home</Link>
@@ -114,7 +114,7 @@ export default function CareerPage() {
             </div>
           </div>
 
-          <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4">
+          {/* <div className="mt-12 grid grid-cols-2 gap-4 md:grid-cols-4">
             {stats.map((s) => (
               <div key={s.value} className="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
                 <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-blue-50 text-brand"><s.icon size={19} /></span>
@@ -124,13 +124,13 @@ export default function CareerPage() {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
         </div>
       </section>
 
       {/* Why build */}
-      <section className="py-14 md:py-20">
-        <div className="mx-auto max-w-7xl px-4">
+      {/* <section className="py-14 md:py-20">
+        <div className="mx-auto max-w-[90%] md:px-4">
           <div className="text-center">
             <Eyebrow>Employee Value Proposition</Eyebrow>
             <h2 className="mt-3 text-3xl font-bold text-slate-900 md:text-4xl">Why Build Your Career at Azure?</h2>
@@ -147,11 +147,11 @@ export default function CareerPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Culture */}
-      <section className="bg-slate-50 py-14 md:py-20">
-        <div className="mx-auto grid max-w-7xl gap-8 px-4 lg:grid-cols-2">
+      {/* <section className="bg-slate-50 py-14 md:py-20">
+        <div className="mx-auto grid max-w-[90%] gap-8 px-4 lg:grid-cols-2">
           <div>
             <div className="relative overflow-hidden rounded-3xl shadow-lg">
               <Image src="/assets/aboutus.png" alt="Azure formulation lab" width={1000} height={680} className="h-auto w-full" />
@@ -197,11 +197,11 @@ export default function CareerPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Impact areas */}
-      <section className="py-14 md:py-20">
-        <div className="mx-auto max-w-7xl px-4">
+      {/* <section className="py-14 md:py-20">
+        <div className="mx-auto max-w-[90%] md:px-4">
           <div className="grid gap-4 md:grid-cols-2 md:items-end">
             <div>
               <Eyebrow>Functional Specializations</Eyebrow>
@@ -219,11 +219,11 @@ export default function CareerPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Open positions */}
-      <section id="positions" className="bg-slate-50 py-14 md:py-20">
-        <div className="mx-auto max-w-7xl px-4">
+      <section id="positions" className="bg-slate-50 py-7 md:py-10">
+        <div className="mx-auto max-w-[90%] md:px-4">
           <p className="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wider text-accent">
             <span className="h-2 w-2 rounded-full bg-accent" /> Verified Openings
           </p>
@@ -234,8 +234,8 @@ export default function CareerPage() {
       </section>
 
       {/* Apply form */}
-      <section id="apply" className="py-14 md:py-20">
-        <div className="mx-auto max-w-3xl px-4">
+      <section id="apply" className="py-7 md:py-20">
+        <div className="mx-auto max-w-[90%] md:px-4">
           <div className="rounded-3xl bg-white p-6 shadow-xl ring-1 ring-slate-200 md:p-10">
             <div className="text-center">
               <Eyebrow className="text-emerald-700 bg-emerald-100">Executive Talent Network</Eyebrow>
@@ -248,8 +248,8 @@ export default function CareerPage() {
       </section>
 
       {/* Steps */}
-      <section className="bg-slate-50 py-14 md:py-20">
-        <div className="mx-auto max-w-7xl px-4">
+      {/* <section className="bg-slate-50 py-7 md:py-10">
+        <div className="mx-auto max-w-[90%] md:px-4">
           <div className="text-center">
             <Eyebrow className="text-emerald-700 bg-emerald-100">Systematic Onboarding</Eyebrow>
             <h2 className="mt-3 text-3xl font-bold text-slate-900 md:text-4xl">Our 4-Step Recruitment Journey</h2>
@@ -283,7 +283,7 @@ export default function CareerPage() {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

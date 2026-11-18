@@ -39,8 +39,8 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-b from-blue-50/80 to-white pb-10 pt-6 md:pb-14">
-        <div className="mx-auto max-w-7xl px-4">
+      <section className="bg-gradient-to-b from-blue-50/80 to-white pt-6 md:pb-14">
+        <div className="mx-auto max-w-[90%] md:px-4">
           <nav className="flex items-center gap-1.5 text-xs text-slate-500">
             <Link href="/" className="inline-flex items-center gap-1 hover:text-brand"><Home size={13} /> Home</Link>
             <ChevronRight size={13} />
@@ -80,8 +80,8 @@ export default function ContactPage() {
       </section>
 
       {/* Form + Office */}
-      <section className="py-10 md:py-16">
-        <div className="mx-auto grid max-w-7xl gap-8 px-4 lg:grid-cols-12">
+      <section className="py-5 md:py-10">
+        <div className="mx-auto grid max-w-[90%] gap-8 md:px-4 lg:grid-cols-12">
           <div className="rounded-3xl bg-white p-6 shadow-xl ring-1 ring-slate-200 md:p-10 lg:col-span-7">
             <p className="text-[11px] font-bold uppercase tracking-widest text-accent">Send a Message</p>
             <h2 className="mt-2 text-2xl font-bold text-slate-900 md:text-3xl">How Can We Help You?</h2>
@@ -89,7 +89,7 @@ export default function ContactPage() {
             <ContactForm />
           </div>
 
-          <div className="flex flex-col gap-6 lg:col-span-5">
+          <div className="flex flex-col md:gap-6 lg:col-span-5">
             <div className="rounded-3xl bg-gradient-to-br from-slate-900 to-[#1e2a44] p-6 text-white shadow-xl md:p-8">
               <p className="flex items-center gap-2 text-[11px] font-bold uppercase tracking-wider text-blue-200"><Building2 size={15} /> Corporate Office</p>
               <h3 className="mt-3 text-2xl font-bold">Azure Drugs &amp; Pharmaceuticals</h3>
@@ -122,13 +122,13 @@ export default function ContactPage() {
       </section>
 
       {/* Departments */}
-      <section className="bg-slate-50 py-12 md:py-16">
-        <div className="mx-auto max-w-7xl px-4">
+      <section className="bg-slate-50 py-7 md:py-10">
+        <div className="mx-auto max-w-[90%] md:px-4">
           <div className="text-center">
             <p className="text-[11px] font-bold uppercase tracking-widest text-brand">Reach the Right Team</p>
-            <h2 className="mt-2 text-3xl font-bold text-slate-900 md:text-4xl">What Are You Looking For?</h2>
+            <h2 className="mt-2 text-2xl font-bold text-slate-900 md:text-4xl">What Are You Looking For?</h2>
           </div>
-          <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="mt-7 grid md:gap-5 gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {departments.map((d) => (
               <Link key={d.title} href={d.href} className="group flex flex-col rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:border-blue-200 hover:shadow-lg">
                 <span className="grid h-11 w-11 place-items-center rounded-xl bg-blue-50 text-brand transition group-hover:bg-brand group-hover:text-white"><d.icon size={20} /></span>
@@ -142,7 +142,7 @@ export default function ContactPage() {
       </section>
 
       {/* FAQ */}
-      <section className="py-12 md:py-16">
+      {/* <section className="py-12 md:py-16">
         <div className="mx-auto max-w-3xl px-4">
           <div className="text-center">
             <p className="text-[11px] font-bold uppercase tracking-widest text-emerald-600">Quick Answers</p>
@@ -172,7 +172,7 @@ export default function ContactPage() {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
