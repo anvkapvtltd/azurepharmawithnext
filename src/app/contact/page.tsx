@@ -55,8 +55,7 @@ export default function ContactPage() {
               Get in Touch with <span className="text-brand">Azure</span>
             </h1>
             <p className="mt-4 leading-relaxed text-slate-600 md:text-lg">
-              Have a question about our products, distribution, institutional supply or partnership? Reach out to us – our team
-              responds within 24 hours.
+              Have a question about our products, distribution, institutional supply or partnership?
             </p>
           </div>
 
