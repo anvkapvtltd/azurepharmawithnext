@@ -102,13 +102,13 @@ export default function CareerPage() {
                 </div>
                 <div className="relative">
                   <Image src="/assets/career.jpg" alt="Life at Azure" width={1000} height={680} priority className="h-auto w-full rounded-2xl" />
-                  <div className="absolute inset-x-3 bottom-3 rounded-xl bg-white/95 p-3 shadow">
+                  {/* <div className="absolute inset-x-3 bottom-3 rounded-xl bg-white/95 p-3 shadow">
                     <div className="flex items-center justify-between">
                       <p className="flex items-center gap-1.5 text-sm font-semibold text-slate-900"><span className="h-2 w-2 rounded-full bg-brand" /> Bio-Precision R&amp;D</p>
                       <span className="rounded bg-emerald-100 px-1.5 py-0.5 text-[9px] font-bold uppercase text-emerald-700">Active Lab Hub</span>
                     </div>
                     <p className="mt-1 text-[11px] text-slate-500">Accelerating softgels, lyophilizates, and micronized therapeutics across 7+ export corridors.</p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
