@@ -100,7 +100,7 @@ export default function AboutPage() {
             <div className="lg:col-span-5">
               <div className="relative">
                 <div className="overflow-hidden rounded-3xl bg-white p-2 shadow-xl ring-1 ring-slate-200">
-                  <Image src="/assets/aboutus.png" alt="Azure pharmaceutical innovation" width={1000} height={680} priority className="h-auto w-full rounded-2xl" />
+                  <Image src="/assets/aboutus1.jpeg" alt="Azure pharmaceutical innovation" width={1000} height={680} priority className="h-auto w-full rounded-2xl" />
                 </div>
                 <div className="absolute -bottom-6 left-4 flex items-center gap-3 rounded-2xl bg-white p-3 pr-5 shadow-lg ring-1 ring-slate-200 sm:-left-6">
                   <span className="grid h-10 w-10 place-items-center rounded-xl bg-blue-50 text-brand"><Building2 size={20} /></span>
@@ -274,7 +274,7 @@ export default function AboutPage() {
 
           <div className="mt-10 grid items-center gap-8 rounded-3xl border border-slate-200 bg-white p-3 shadow-sm md:grid-cols-12 md:p-8">
             <div className="overflow-hidden rounded-2xl md:col-span-5">
-              <Image src="/assets/aboutus.png" alt="Quality control laboratory" width={1000} height={680} className="h-auto w-full" />
+              <Image src="/assets/aboutus2.jpeg" alt="Quality control laboratory" width={1000} height={680} className="h-auto w-full" />
             </div>
             <div className="md:col-span-7">
               <Eyebrow className="text-emerald-600">QUALITY ASSURANCE & ANALYTICAL TESTING</Eyebrow>

@@ -101,7 +101,7 @@ export default function CareerPage() {
                   <span>Careers &amp; Talent Gateway</span><span>Innovating for Health</span>
                 </div>
                 <div className="relative">
-                  <Image src="/assets/aboutus.png" alt="Life at Azure" width={1000} height={680} priority className="h-auto w-full rounded-2xl" />
+                  <Image src="/assets/career.jpg" alt="Life at Azure" width={1000} height={680} priority className="h-auto w-full rounded-2xl" />
                   <div className="absolute inset-x-3 bottom-3 rounded-xl bg-white/95 p-3 shadow">
                     <div className="flex items-center justify-between">
                       <p className="flex items-center gap-1.5 text-sm font-semibold text-slate-900"><span className="h-2 w-2 rounded-full bg-brand" /> Bio-Precision R&amp;D</p>
